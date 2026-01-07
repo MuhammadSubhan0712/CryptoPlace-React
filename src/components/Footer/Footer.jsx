@@ -4,8 +4,8 @@ import "./Footer.css"
 const Footer = () => {
   return (
     <div className='footer'>
-        <p>
-         CryptoPlace &copy; {newDate().getFullYear()} - All Right Reserved.   
+        <p> 
+         CryptoPlace &copy; {new Date().getFullYear()} - All Right Reserved.   
         </p>
     </div>
   )
