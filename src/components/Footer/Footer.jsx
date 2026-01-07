@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='footer'>
         <p>
-         Copyright @ 2025, CryptoPlace - All Right Reserved.   
+         CryptoPlace &copy; {newDate().getFullYear()} - All Right Reserved.   
         </p>
     </div>
   )
